@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #eec0c8;
+    background-color: #ffaeba;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: "Times New Roman" ;
+
 }
 
 
@@ -19,14 +21,15 @@ h2 {
     text-align: center;
     margin-bottom: 15px;
     text-transform: capitalize;
-    color: #a02456;
+    color: rgb(181, 68, 87);
+
 }
 
 form {
     width: 300px;
     height: 320px;
     padding: 40px;
-    background-color: #F9629F;
+    background-color: #e7798d;
     border-radius: 5px;
     margin: 0;
 
@@ -37,15 +40,15 @@ form {
 
 form input {
     padding: 8px;
-    border: 1px solid pink;
-    background-color: pink;
+    border: 1px solid rgb(188, 103, 118);
+    background-color: rgb(255, 194, 204);
     border-radius: 7px;
     margin-bottom: 20px;
     width: 100%;
 
 }
 form p {
-    color: #a02456;
+    color: rgba(110, 35, 47, 0.696);
     padding: 16px; 
     font-size: 18px;
 }
@@ -55,13 +58,42 @@ form .buttonLogin {
     padding: 7px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #ef7ba9;
-    background-color: #6e1a3b;
-    color: white;
-
+    border: 1px solid rgb(188, 103, 118);
+    background-color: rgb(255, 194, 204);
+    color: rgba(110, 35, 47, 0.696);
+    
 }
 
 form .container p {
-    color: #a02456;
+    color: rgb(117, 40, 53);
     font-size: 14px;
+    font-family: "Times New Roman";
+
+}
+
+div .container{
+    font-family: "Times New Roman";
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.foto {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.majtas {
+    transform: rotate(-10deg);
+}
+
+.djathtas {
+    transform: rotate(10deg);
 }
